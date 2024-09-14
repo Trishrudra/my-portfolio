@@ -1,0 +1,40 @@
+.skills-intro {
+  text-align: center;
+  width: 800px;
+  padding-left: 180px;
+}
+
+.skill svg {
+  height: 70px;
+  width: min-content;
+}
+
+.skill-info {
+  height: 110px;
+  width: 110px;
+  border-radius: 26px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-skills {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.skill-percent {
+  color: rgb(151, 149, 149);
+  transition: 0.5s;
+  font-size: 1.3rem;
+}
+
+.skill-percent:hover {
+  color: #8b5cf6;
+  transform: scale(115%);
+  transition: 0.5s;
+}

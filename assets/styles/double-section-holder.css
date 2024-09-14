@@ -1,0 +1,38 @@
+.double-section-holder {
+  display: flex;
+  gap: 30px;
+}
+
+.id-title {
+  color: #8b5cf6;
+  font-size: 20px;
+}
+
+.achievment-section {
+  width: 600px;
+  padding: 30px;
+  text-align: left;
+}
+
+.interface-designer-section {
+  width: 400px;
+  overflow: hidden; /* Hide overflow */
+  text-align: left;
+}
+
+.contact-me {
+  background-color: #8b5cf6;
+  height: 40px;
+  width: 120px;
+  color: white;
+  border-radius: 16px;
+  border: none;
+  font-family: "sora", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.id-img {
+  max-width: 100%; /* Ensure image scales within container */
+  height: auto; /* Maintain aspect ratio */
+}

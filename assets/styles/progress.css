@@ -1,0 +1,19 @@
+.progress-part > svg {
+  height: 30px;
+  width: 30px;
+  fill: #8b5cf6;
+}
+
+.progress-section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.progress-section-data {
+  margin: 0px;
+}
+
+.progress-section-info {
+  color: #8b5cf6;
+}

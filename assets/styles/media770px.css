@@ -1,0 +1,48 @@
+@media (max-width: 990px) {
+  .title-font {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .hero-section {
+    flex-direction: column;
+    padding-left: 0px;
+    align-items: center;
+  }
+
+  .double-section-holder {
+    flex-direction: column;
+  }
+
+  .achievment-section,
+  .interface-designer-section {
+    width: auto;
+  }
+
+  .menu-bar {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
+
+@media (max-width: 850px) {
+  body {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .hero-section {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 800px) {
+  main {
+    padding: 0px;
+  }
+}

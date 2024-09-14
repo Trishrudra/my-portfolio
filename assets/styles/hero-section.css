@@ -1,0 +1,80 @@
+.social-icons {
+  display: inline-block;
+  height: 1.5rem;
+  width: 1.5rem;
+
+  fill: #8b5cf6;
+  border: 1px solid #8b5cf6;
+  border-radius: 50%;
+  padding: 0.5rem;
+  transition: 0.5s;
+}
+
+.social-icons:hover {
+  fill: #ffffff;
+  transition: 0.5s;
+  background-color: #8b5cf6;
+}
+
+.primary-button {
+  display: inline-block;
+
+  background-color: #8b5cf6;
+  height: 20px;
+  width: 130px;
+  padding: 20px;
+  border-radius: 40px;
+  text-align: center;
+
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title-font {
+  font-size: 3rem;
+  color: #8b5cf6;
+  font-weight: 500;
+}
+
+.description-font {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.intro {
+  height: 400px;
+  margin-left: 130px;
+  margin-right: 130px;
+
+  font-family: "sora", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  text-align: left;
+}
+
+.profile-pic {
+  height: 340px;
+  border-radius: 16px;
+  border: 2px solid transparent;
+  transition: 0.3s;
+}
+
+.profile-pic:hover {
+  border: 2px solid #8b5cf6;
+  transition: 0.3s;
+}
+
+.connect-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+}
